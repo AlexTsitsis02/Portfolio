@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;600&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ICO">
+
+    <title>Alexandros Tsitsis</title>
+  </head>
+  <body>
+    <video id="background-video" autoplay muted loop>
+      <source src="background.mp4" type="video/mp4">
+    
+      Your browser does not support the video tag.
+  </video>
+    <!-- Preloader Section -->
+    <div id="preloader">
+      <video id="preloader-video" autoplay muted >
+        <source src="intro-index.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>PORTOFOLIO</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#services">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="face.jpg" alt="Olivia" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span class="alex">Alex</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a Junior <span class="typewriter-text"></span
+            ><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            Passionate about coding and always eager to learn.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/AlexTsitsis02"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/Alex-Tsitsis/"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div
+  class="btn"
+  data-aos="zoom-in"
+  data-aos-duration="1500"
+  data-aos-delay="1800"
+>
+  <button onclick="scrollToContact()">Hire me</button>
+</div>
+
+<script>
+  function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-container">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate and driven software developer with an understanding
+          of all programming languages and a strong foundation in web and mobile
+          development. I have experience working with technologies like
+          JavaScript, HTML, CSS, and modern frameworks such as React .Through my
+          studies and hands-on experience, including an internship, I have honed
+          my problem-solving skills, attention to detail, and ability to write
+          clean, efficient code. I am always eager to learn new technologies and
+          take on challenging projects that push my skills further.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="main-container">
+        <div class="content">
+          <h2 data-aos="fade-up" data-aos-duration="1500">Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <div class="skill-title">HTML</div>
+              <div class="skill-bar" data-percent="100%">
+                <div class="skill-progress" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">CSS</div>
+              <div class="skill-bar" data-percent="100%">
+                <div class="skill-progress" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-bar" data-percent="95%">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">React</div>
+              <div class="skill-bar"data-percent="95%">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">C#</div>
+              <div class="skill-bar" data-percent="80%">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section id="services">
+      <div class="section-container">
+        <h2>My Projects</h2>
+        <div class="services">
+          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+            <a href="https://alextsitsis02.github.io/JS-Calculator/" target="_blank">
+              <div class="service-image">
+                <img src="project1.png" alt="Project Image" />
+              </div>
+              <h3>Interactive JavaScript & CSS Calculator</h3>
+            </a>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <a href="https://alextsitsis02.github.io/Tin-Dog/" target="_blank">
+              <div class="service-image">
+                <img src="project2.png" alt="Project Image" />
+              </div>
+              <h3>My First HTML & CSS Website</h3>
+            </a>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+            <a href="https://alextsitsis02.github.io/Dice-Game/" target="_blank">
+              <div class="service-image">
+                <img src="project3.png" alt="Project Image" />
+              </div>
+              <h3>Dice Game</h3>
+            </a>
+          </div>
+          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+            <a href="https://alextsitsis02.github.io/Guess-My-Number/" target="_blank">
+              <div class="service-image">
+                <img src="project4.png" alt="Project Image" />
+              </div>
+              <h3>Guess My Number</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-container">
+        <h2>Contact Me</h2>
+        <p>
+          If you're interested in working with me or just want to say hi, feel
+          free to reach out!
+        </p>
+        <form id="contact-form">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+          <p id="form-message"></p> <!-- Message feedback -->
+        </form>
+        
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
