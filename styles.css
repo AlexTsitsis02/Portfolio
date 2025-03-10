@@ -459,19 +459,6 @@ section .btn button:hover {
   flex-direction: column; /* Center the content */
 }
 
-/* .service h3 {
-  color: #ffffff;
-  font-size: 22px;
-  font-family: "Roboto", serif !important;
-  margin-bottom: 10px;
-}
-
-.service p {
-  font-size: 16px;
-  font-family: "Lato", sans-serif !important;
-  margin: 0;
-} */
-
 /* Show the description when hovered */
 .service:hover .service-desc {
   opacity: 1;
