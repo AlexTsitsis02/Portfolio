@@ -132,3 +132,5 @@ document.querySelectorAll(".skill-bar").forEach((skillBar) => {
   tooltip.textContent = percentage;
   skillBar.appendChild(tooltip);
 });
+
+AOS.init();

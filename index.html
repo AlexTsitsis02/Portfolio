@@ -20,14 +20,14 @@
   </head>
   <body>
     <video id="background-video" autoplay muted loop>
-      <source src="background.mp4" type="video/mp4">
+      <source src="media/background.mp4" type="video/mp4">
     
       Your browser does not support the video tag.
   </video>
     <!-- Preloader Section -->
     <div id="preloader">
       <video id="preloader-video" autoplay muted >
-        <source src="intro-index.mp4" type="video/mp4">
+        <source src="media/intro-index.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -88,7 +88,7 @@
     <section id="home">
       <div class="main-container">
         <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-          <img src="face.jpg" alt="Olivia" />
+          <img src="media/face.jpg" alt="Alex" />
         </div>
         <div class="content">
           <h1
@@ -208,48 +208,69 @@
       </div>
     </section>
 
-    <!-- Services Section -->
-
-    <section id="services">
-      <div class="section-container">
-        <h2>My Projects</h2>
-        <div class="services">
-          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-            <a href="https://alextsitsis02.github.io/JS-Calculator/" target="_blank">
-              <div class="service-image">
-                <img src="project1.png" alt="Project Image" />
-              </div>
-              <h3>Interactive JavaScript & CSS Calculator</h3>
-            </a>
+  <!-- Services Section -->
+<!-- Services Section -->
+<section id="services">
+  <div class="section-container">
+    <h2>My Projects</h2>
+    <div class="services">
+      <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <a href="https://alextsitsis02.github.io/JS-Calculator/" target="_blank">
+          <div class="service-image">
+            <img src="media/project1.png" alt="Project Image" />
+            <div class="service-desc">
+              <h4>Interactive JavaScript & CSS Calculator</h4>
+              <p>A sleek, interactive calculator built with JavaScript and CSS, offering a smooth user experience.</p>
+            </div>
           </div>
-          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-            <a href="https://alextsitsis02.github.io/Tin-Dog/" target="_blank">
-              <div class="service-image">
-                <img src="project2.png" alt="Project Image" />
-              </div>
-              <h3>My First HTML & CSS Website</h3>
-            </a>
-          </div>
-          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-            <a href="https://alextsitsis02.github.io/Dice-Game/" target="_blank">
-              <div class="service-image">
-                <img src="project3.png" alt="Project Image" />
-              </div>
-              <h3>Dice Game</h3>
-            </a>
-          </div>
-          <div class="service" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-            <a href="https://alextsitsis02.github.io/Guess-My-Number/" target="_blank">
-              <div class="service-image">
-                <img src="project4.png" alt="Project Image" />
-              </div>
-              <h3>Guess My Number</h3>
-            </a>
-          </div>
-        </div>
+          <h3>Interactive JavaScript & CSS Calculator</h3>
+        </a>
       </div>
-    </section>
-    
+
+      <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <a href="https://alextsitsis02.github.io/Tin-Dog/" target="_blank">
+          <div class="service-image">
+            <img src="media/project2.png" alt="Project Image" />
+            <div class="service-desc">
+              <h4>My First HTML & CSS Website</h4>
+              <p>A simple website created using HTML and CSS, showcasing my first web development project.</p>
+            </div>
+          </div>
+          <h3>My First HTML & CSS Website</h3>
+        </a>
+      </div>
+
+      <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <a href="https://alextsitsis02.github.io/Dice-Game/" target="_blank">
+          <div class="service-image">
+            <img src="media/project3.png" alt="Project Image" />
+            <div class="service-desc">
+              <h4>Dice Game</h4>
+              <p>A number guessing game where players try to guess a number between 1 and 20, with hints and a decreasing score. Reset the game by clicking 'Again!</p>
+            </div>
+          </div>
+          <h3>Dice Game</h3>
+        </a>
+      </div>
+
+      <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <a href="https://alextsitsis02.github.io/Guess-My-Number/" target="_blank">
+          <div class="service-image">
+            <img src="media/project4.png" alt="Project Image" />
+            <div class="service-desc">
+              <h4>Guess My Number</h4>
+              <p>A number guessing game where players try to guess a number between 1 and 20, with hints and a decreasing score. Reset the game by clicking 'Again!'</p>
+            </div>
+          </div>
+          <h3>Guess My Number</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
     <!-- Contact Section -->
     <section id="contact">
